@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^3.4.2"
+  },
+  "name": "omusubi",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:naoki-tomita/omusubi.git",
+  "author": "naoki.tomita <mxcpy608@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "index.d.ts"
+}
