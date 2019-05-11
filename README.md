@@ -7,12 +7,15 @@ DI Container for JavaScript.
 ※Required decorator.
 
 ```ts
+import { register, inject } from "omusubi";
+
 function main() {
     register(new Child()).as(Child);
     const parent = new Parent();
 
     parent.callChild(); 
 }
+main();
 
 abstract class Injectable {
     abstract foo();
