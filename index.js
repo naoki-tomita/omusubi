@@ -10,6 +10,7 @@ function inject(specifier) {
         Object.defineProperty(target, propertyKey, {
             get: function () { return map.get(specifier); },
         });
+        return target;
     };
 }
 exports.inject = inject;

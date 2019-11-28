@@ -9,5 +9,6 @@ export function inject(specifier: any): PropertyDecorator {
     Object.defineProperty(target, propertyKey, {
       get: () => map.get(specifier),
     });
+    return target;
   }
 }
