@@ -1,6 +1,6 @@
 # omusubi
 
-DI Container for JavaScript.
+DI Container for TypeScript.
 
 # how to use.
 
